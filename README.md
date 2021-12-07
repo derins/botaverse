@@ -1,0 +1,2 @@
+# botaverse
+Discord Bot
