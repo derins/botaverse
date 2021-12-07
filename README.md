@@ -11,6 +11,6 @@ export TOKEN={TOKEN}
 python botaverse.py
 ```
 
-## Documentation for discord-py-slash-sync_commands
+## Documentation for discord-py-slash-commands
 
 https://discord-py-slash-commands.readthedocs.io/en/latest/index.html
