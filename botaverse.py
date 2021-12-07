@@ -14,7 +14,7 @@ from discord_slash.model import SlashCommandPermissionType, ButtonStyle
 
 
 TOKEN = os.environ.get('TOKEN')
-GUILD_IDS = [os.environ.get('GUILD_ID')]
+GUILD_IDS = [int(os.environ.get('GUILD_ID'))]
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 slash = SlashCommand(bot, sync_commands=True)
